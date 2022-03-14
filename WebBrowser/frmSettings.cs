@@ -16,7 +16,9 @@ namespace WebBrowser
         {
             InitializeComponent();
         }
-
+        /*Desarrollado Por Jean Carlos Reyes Encarnacion
+*/
+        //Desarrollado Por Jean Carlos Reyes
         private void bunifuCustomLabel7_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
@@ -29,7 +31,9 @@ namespace WebBrowser
             panel1.AutoScroll = true;
             history.Show();
         }
-
+        /*Desarrollado Por Jean Carlos Reyes Encarnacion
+*/
+        //Desarrollado Por Jean Carlos Reyes
         private void bunifuCustomLabel8_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();

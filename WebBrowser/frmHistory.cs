@@ -12,6 +12,9 @@ namespace WebBrowser
 {
     public partial class frmHistory : Form
     {
+        /*Desarrollado Por Jean Carlos Reyes Encarnacion
+        */
+        //Desarrollado Por Jean Carlos Reyes
         public frmHistory()
         {
             InitializeComponent();
@@ -37,6 +40,7 @@ namespace WebBrowser
                 panels[i].BackColor = Color.Azure;
                 panels[i].Dock = DockStyle.None;
                 panels[i].Top = poss;
+                //Desarrollado Por Jean Carlos Reyes
                 poss = panels[i].Top + panels[i].Height + 10;
                 items[i].Show();
                 panels[i].Controls.Add(items[i]);
@@ -45,5 +49,6 @@ namespace WebBrowser
                 i++;
             }
         }
+        //Desarrollado Por Jean Carlos Reyes
     }
 }

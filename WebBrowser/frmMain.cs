@@ -11,6 +11,9 @@ namespace WebBrowser
         private History History;
         private Favorite favorite;
         private bool IsFavorite = false;
+        /*Desarrollado Por Jean Carlos Reyes Encarnacion
+*/
+        //Desarrollado Por Jean Carlos Reyes
         public frmMain()
         {
             InitializeComponent();
@@ -174,6 +177,9 @@ namespace WebBrowser
                 IsFavorite = false;
                 pictureBox1.Image = Properties.Resources.no_favorite;
             }
+            /*Desarrollado Por Jean Carlos Reyes Encarnacion
+*/
+            //Desarrollado Por Jean Carlos Reyes
         }
     }
 }

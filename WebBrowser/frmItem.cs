@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace WebBrowser
 {
     public partial class frmItem : Form
     {
+        /*Desarrollado Por Jean Carlos Reyes Encarnacion
+*/
+        //Desarrollado Por Jean Carlos Reyes
         public frmItem()
         {
             InitializeComponent();
-            
+
         }
         public frmItem(History history)
         {
@@ -27,7 +22,9 @@ namespace WebBrowser
             lblUrl.Visible = true;
             LblHour.Text = history.DateVisited.ToString("h:mm tt");
         }
-
+        /*Desarrollado Por Jean Carlos Reyes Encarnacion
+*/
+        //Desarrollado Por Jean Carlos Reyes
         public frmItem(Favorite favorite)
         {
             InitializeComponent();

@@ -19,7 +19,9 @@ namespace WebBrowser
         }
 
         int poss = 10;
-
+        /*Desarrollado Por Jean Carlos Reyes Encarnacion
+*/
+        //Desarrollado Por Jean Carlos Reyes
         public void AgregadoItem() {
             int number = ListHistoryFavorites.Instance.Histories.Count;
             Panel[] panels =  new Panel[number];
